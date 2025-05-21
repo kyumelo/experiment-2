@@ -3,7 +3,8 @@ body {
     /* feel free to change/customize this gradient and font */
     background: linear-gradient(135deg, #f5e9e3 0%, #ffeffd 100%);
     /* feel free to change/customize font */
-    font-family: 'Arial', sans-serif;
+    font-family: Helvetica arial;
+    font-size: large;
 }
 
 .flex-container {
@@ -22,6 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 13px;
 
     /* setting the width for each tile */
     width: 40%;
@@ -31,10 +33,11 @@ body {
     padding: 20px;
 
     /* background color for tile, feel free to change */
-    background-color: white;
+    background-color: rgb(255, 255, 228);
 }
 
 img{
     width: 60%;
+    border-radius: 13px;
 }
 
