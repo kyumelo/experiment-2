@@ -11,7 +11,7 @@ body {
     /* Use flexbox properties to stack your tiles vertically and center them */
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -21,9 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
     justify-content: space-around;
-    background-color: #b3856e;
 
     /* setting the width for each tile */
     width: 40%;
