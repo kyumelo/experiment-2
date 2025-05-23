@@ -40,4 +40,24 @@ img{
     width: 60%;
     border-radius: 13px;
 }
+.btn1 {  
+    display: inline-block;  
+    padding: 15px 30px;  
+    margin: 5% auto;
+    width: 300px;
+    border: 3px dotted red;
+    border-radius: 10px;
+    background: #3333ff;  
+    color: white;  
+    font-family: 'Comic Sans MS';
+}
+.btn1:hover {  
+    background: black;  
+    color: lime;  
+    border: 3px solid red;  
+    font-size: 24px;  
+  }  
 
+.btn1:active {  
+    transform: rotate(10deg);
+  } 
