@@ -34,30 +34,48 @@ body {
 
     /* background color for tile, feel free to change */
     background-color: rgb(255, 255, 228);
+    animation: ani 2s infinite
 }
 
 img{
     width: 60%;
     border-radius: 13px;
+    
 }
 .btn1 {  
     display: inline-block;  
     padding: 15px 30px;  
     margin: 5% auto;
     width: 300px;
-    border: 3px dotted red;
+    border: 3px solid pink;
     border-radius: 10px;
-    background: #3333ff;  
-    color: white;  
+    background: white;  
+    color: lightgreen;  
     font-family: 'Comic Sans MS';
 }
 .btn1:hover {  
-    background: black;  
-    color: lime;  
-    border: 3px solid red;  
+    background: white;  
+    color: rgb(198, 235, 198);  
+    border: 3px dotted pink;  
     font-size: 24px;  
   }  
 
 .btn1:active {  
-    transform: rotate(10deg);
+    transform: rotate(5deg);
   } 
+
+@keyframes ani{
+    0%{
+        border: solid 3px rgb(255, 255, 228);
+    }
+    50%{
+        border: solid 2px gray
+    }
+    100%{
+        border: solid 3px rgb(255, 255, 228);
+    }
+}
+
+  .flex-tile:hover{
+    background-color: burlywood;
+  }
